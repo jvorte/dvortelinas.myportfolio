@@ -4251,6 +4251,7 @@ input, select, textarea {
 					-ms-align-items: center;
 					align-items: center;
 					padding: 3.15rem 4rem;
+					text-align: center;
 				}
 
 					#footer > section.split.contact > section > * {
