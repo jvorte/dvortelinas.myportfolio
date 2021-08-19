@@ -2808,17 +2808,22 @@ input, select, textarea {
 		}
 
 /* Icons */
-
+.icons{
+	text-align: center;
+}
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: center;
 	}
 
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.5rem 0 0;
 			vertical-align: middle;
+			text-align: center;
+		
 		}
 
 			ul.icons li:last-child {
@@ -2859,6 +2864,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+		
 	}
 
 		ul li {
@@ -3659,6 +3665,8 @@ input, select, textarea {
 		#nav a {
 			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
+		    padding-left: 25px;
+			
 		}
 
 			#nav a:hover {
